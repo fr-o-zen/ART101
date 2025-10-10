@@ -1,0 +1,40 @@
+body {background: rgb(70, 57, 57);}
+.test-div   {
+background: rgb(83, 10, 10);
+color:rgb(255, 217, 203);
+padding: 20px;
+margin: 20px;
+    
+    }
+
+.test-div h2  {
+color:rgb(255, 0, 0);
+    }
+#charge {width: 300px}
+#hos {width: 200px}
+
+.test-div:hover {
+    background: rgb(162, 15, 15);
+
+}
+p {color: white;}
+h2,h3,h4 {
+    text-decoration:underline;
+}
+.special {
+    background: rgb(164, 0, 27);}
+p.button.special {color:antiquewhite;}
+
+button {color: rgb(41, 17, 17);}
+button.special {background: rgb(197, 16, 16);}
+
+button.special:hover {background: rgb(255, 0, 43);
+color: white;}
+
+#my_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;}
+
+#split { display: flex; 
+flex-direction: column}

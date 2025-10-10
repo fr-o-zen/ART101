@@ -1,0 +1,13 @@
+p { color: rgb(0, 0, 0); }
+a { color: rgb(167, 0, 67); }
+p {background: pink; }
+p {padding: 50px; }
+l {color: blue;} 
+.high1 {background: rgb(214, 42, 71);}
+.high2 {background:rgb(82, 255, 110);}
+.high3 {background: yellow;} 
+.high4 {background: red;}
+b {color: pink;}
+#mitsca {
+    width: 400px
+}
