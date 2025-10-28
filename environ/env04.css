@@ -2,9 +2,8 @@ body {background-image: url("night.png");
     background-size: cover;
     height: 500px;
     background-repeat: no-repeat;
-}   
+}
 H1, H2, H3, p {color: #faffb4; font-family: serif;}
-#beowulf {width: 400px;}
 a {padding: 10px;
     background-color: #000000;
     font-size: 30px;
