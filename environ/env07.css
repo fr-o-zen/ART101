@@ -1,0 +1,35 @@
+body {background-image: url("night.png");
+    background-size: cover;
+    height: 500px;
+    background-repeat: repeat;
+}
+H1, H2, H3, p {color: #faffb4; font-family: serif;}
+a {padding: 10px;
+    background-color: #000000;
+    font-size: 30px;
+    color: #faffb4}
+g {padding: 1px;
+    background-color: #000000;
+    font-size: 60px;
+    color: #faffb4}
+
+.info-block {
+    height: 40px;
+    overflow: hidden;
+    width: 100px;
+    padding: 10px;
+    background: black;
+    margin: 20px;
+}
+
+.less {}
+
+.more {
+    height: auto;
+    overflow: visible;
+}
+
+.info-block span {
+    cursor: pointer;
+    color: rgb(255, 240, 153);
+}
