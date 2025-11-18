@@ -24,6 +24,11 @@ $("#beo-pose1").click(function () {
 
 });
 
+$("#beowulf").hover(
+  function() { $("#status").text("AROOOOOOOO!"); },
+  function() { $("#status").text("YOU WANT SOME OF THIS?"); }
+);
+
 $(".info-block span").click(function () {
 
     $(this).parent().toggleClass("more");

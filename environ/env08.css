@@ -13,6 +13,12 @@ g {padding: 1px;
     font-size: 60px;
     color: #faffb4}
 
+#beowulf {width: 400px;}
+a {padding: 10px;
+    background-color: #000000;
+    font-size: 30px;
+    color: #faffb4}
+
 .info-block {
     height: 40px;
     overflow: hidden;

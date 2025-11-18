@@ -17,20 +17,23 @@
 
 <body>
    <!-- Main content goes here, inside BODY -->
-    <h1> Creatures Garden </h1>
+   <h1>🌺 Creatures Garden 🌺</h1>
 
-    <div id="creature-form">
-            <div>Name: <input type=text id="crName"></div>
-    </br><div><button id="crAdd">Add Creature</button></div>   
-             
-    
-    
-    </div>
+   <div id="creature-form">
+      <h2>Add a creature</h2>
+      <div>Name: <input id="crName" type="text" maxlength="10"> </div>
+      <div>Color: <input id="crColor" type="color"> </div>
+      <div>Number of eyes: <input id="crEyesNum" type="number" max="5" min="0"> </div>
+      <div>Size: <select name="Size" id="crSize">
+            <option value="crBig">Big</option>
+            <option value="crMed">Medium</option>
+            <option value="crSmall">Small</option>
+         </select>
+         <button id="add-creature">Let it roam!</button>
+      </div>
 
-    <div id="creature-list"> creatures list will be there 
-    </div>
-
-
+      <div id="creature-list">Creatures list will be there: </div>
 
 </body>
+
 </html>
